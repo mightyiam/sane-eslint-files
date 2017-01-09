@@ -1,0 +1,30 @@
+{
+  "name": "sane-eslint-files",
+  "version": "0.0.0",
+  "description": "Sane ESLint files patterns",
+  "main": "lib/index.json",
+  "scripts": {
+    "lint": "standard",
+    "unit": "node lib/index.test.js",
+    "test": "npm run lint && npm run unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mightyiam/sane-eslint-files.git"
+  },
+  "keywords": [
+    "sane",
+    "eslint",
+    "files",
+    "patterns"
+  ],
+  "author": "Shahar Or <mightyiampresence@gmail.com> (mightyiam)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mightyiam/sane-eslint-files/issues"
+  },
+  "homepage": "https://github.com/mightyiam/sane-eslint-files#readme",
+  "devDependencies": {
+    "standard": "^8.6.0"
+  }
+}
